@@ -23,11 +23,11 @@ apply plugin: 'com.android.library'
 
 android {
     namespace = "xyz.justsoft.video_thumbnail"
-    compileSdkVersion 33
+    compileSdkVersion 34
     namespace 'xyz.justsoft.video_thumbnail'
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
